@@ -14,12 +14,6 @@
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="nav-link" href="#contacts">Contacts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#summary">Summary</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
@@ -48,34 +42,13 @@
         <div class="section-title-profile">
           <h1 class="title-profile" id="profile">Aleksandr Kriulin</h1>
           <div>Junior front-end Developer</div>
-        </div>
-      </section>
-      <div class="section-container">
-        <section class="section">
-          <h2 class="section-title" id="contacts">Contacts</h2>
-          <ul class="contacts-list">
-            <li class="place-item">Russia, Saint Petersburg</li>
-            <li class="email-item">
-              <a href="mailto:aleksandrkriulin493@gmail.com" target="_blank">aleksandrkriulin493@gmail.com</a>
-            </li>
-            <li class="github-item">
-              <a href="https://github.com/aleksandr2639" target="_blank">aleksandr2639</a>
-            </li>
-            <li class="telegram-item">
-              <a href="https://t.me/aleksander" target="_blank">Alexander</a>
-            </li>
-            <li class="discord-item">
-              <a href="https://discord.com/channels/516715744646660106/@home" target="_blank">Aleksandr(@aleksandr2639)</a>
-            </li>
-          </ul>
-        </section>
-        <section class="section">
-          <h2 class="section-title" id="summary">Summary</h2>
           <p>Hi, I'm interested in learning something new, so I decided to try to start programming. 
             My skills are at a beginner level, but I don't stop and move forward.
              I want to upgrade my Javascript skills and learn the React library
             to make interactive websites.</p>
-        </section>
+        </div>
+      </section>
+      <div class="section-container">
         <section class="section">
           <h2 class="section-title" id="skills">Skills</h2>
           <ul class="section-list">
@@ -83,10 +56,6 @@
             <li class="section-item">Version control: GIT, Github</li>
             <li class="section-item">Graphics: Figma</li>
           </ul>
-        </section>
-        <section class="section">
-          <h2 class="section-title" id="code">Code</h2>
-          <p></p>
         </section>
         <section class="section">
           <h2 class="section-title" id="courses">Courses</h2>
@@ -99,13 +68,18 @@
           </ul>
         </section>
         <section class="section">
+          <h2 class="section-title" id="code">Code</h2>
+          <p><code>startButton.addEventListener('click', () => {
+            gameContainer.style.display = 'flex';
+            startButton.style.display = 'none';
+            question.innerText = `${firstNumber} * ${secondNumber}`;</code></p>
+        </section>
+        <section class="section">
           <h2 class="section-title" id="projects">Projects</h2>
           <ul class="section-list">
             <li class="section-item">
               <a href="https://aleksandr2639.github.io/netologia_project/" target="_blank">Project netologia</a>
             </li>
-            <li class="section-item">ff</li>
-            <li class="section-item">ff</li>
             <li class="section-item">ff</li>
             <li class="section-item">ff</li>
           </ul>
@@ -123,8 +97,21 @@
   </main> 
   <footer class="footer">
     <div class="footer-container">
-      <a class="copyright-link" href="mailto:aleksandrkriulin493@gmail.com" target="_blank"> &#169; 2022 Aleksandr Kriulin</a>
-      <a class="image_school" href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="image_school" width="100" height="38"></a>
+      <a class="author" href="mailto:aleksandrkriulin493@gmail.com">Aleksandr Kriulin 2022</a>
+      <a class="footer-link-school" href="https://rs.school/js/" target="_blank"></a>
+        <ul class="footer-links">
+          <li>
+            <a class="footer-link footer-link--mail" href="mailto:aleksandrkriulin493@gmail.com" target="_blank"></a>
+          <li class="github-item">
+            <a class="footer-link footer-link--github" href="https://github.com/aleksandr2639" target="_blank"></a>
+          </li>
+          <li>
+            <a class="footer-link footer-link--telegram" href="https://t.me/aleksander" target="_blank"></a>
+          </li>
+          <li>
+            <a class="footer-link footer-link--discord" href="https://discord.com/channels/516715744646660106/@home" target="_blank"></a>
+          </li>
+        </ul>
     </div>
   </footer>
 </body>
