@@ -1,6 +1,6 @@
 # Aleksandr Kriulin
 ## Contacts
-* [email](aleksandrkriulin493@gmail.com)
+* email: aleksandrkriulin493@gmail.com
 * [telegram](https://t.me/aleksander)
 * [discord](https://discord.com/channels/516715744646660106/@home)
 * [github](https://github.com/aleksandr2639)
