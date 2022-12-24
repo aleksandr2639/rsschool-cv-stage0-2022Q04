@@ -69,10 +69,14 @@
         </section>
         <section class="section">
           <h2 class="section-title" id="code">Code</h2>
-          <p><code>startButton.addEventListener('click', () => {
-            gameContainer.style.display = 'flex';
-            startButton.style.display = 'none';
-            question.innerText = `${firstNumber} * ${secondNumber}`;</code></p>
+          <p><code>function opposite(number) {
+            if (number > 0) {
+            return -Math.abs(number);
+            }
+            else if (number <= 0){
+            return Math.abs(number);
+            }
+          }</code></p>
         </section>
         <section class="section">
           <h2 class="section-title" id="projects">Projects</h2>
