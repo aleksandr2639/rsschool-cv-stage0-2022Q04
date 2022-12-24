@@ -25,14 +25,18 @@ body {
 }
 
 @media (max-width:768px) {
- .avatar {
- display:none;} 
-} 
-
-@media (max-width:726px) {
-.section-title-profile {
- text-align: center;}
+   .avatar {
+   display:none;
+   }
+   .section-title-profile {
+   text-align: center;
+   }
+   .footer-link-school {
+    display:none;
+   } 
 }
+
+
 
 .header {
  background-color: #20203a;   
@@ -148,8 +152,7 @@ body {
  font-weight: 700;  
  color:#000000;
  text-transform: uppercase;
- letter-spacing: 4px;
-     
+ letter-spacing: 4px;    
 }
 
 .title-profile:before {
@@ -227,11 +230,9 @@ div + p {
  width: 100px;
  height: 37px;
  background-repeat: no-repeat;
-}
-
-.footer-link-school {
  background-image: url(assets/img/icons/rs_school_js.png);
 }
+
 
 .footer-link-list {
  display: flex;
@@ -262,4 +263,6 @@ div + p {
 .footer-link.footer-link--discord {
  background-image: url(assets/img/icons/discord.png);
 }
+
+
 
