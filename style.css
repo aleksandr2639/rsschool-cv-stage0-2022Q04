@@ -24,6 +24,16 @@ body {
  src: url(assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 
+@media (max-width:726px) {
+ .avatar {
+ display:none;} 
+} 
+
+@media (max-width:726px) {
+.section-title-profile {
+ text-align: center;}
+}
+
 .header {
  background-color: #20203a;   
 }
