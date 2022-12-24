@@ -24,7 +24,7 @@ body {
  src: url(assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 
-@media (max-width:726px) {
+@media (max-width:768px) {
  .avatar {
  display:none;} 
 } 
@@ -51,6 +51,7 @@ body {
 .footer-container {
  max-width: 1440px;
  margin: 0 auto;
+ padding: 0 10px 0 10px;
 }
 
 .section-container {
